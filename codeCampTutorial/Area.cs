@@ -10,7 +10,7 @@ namespace codeCampTutorial
 {
     internal class Area
     {
-        // Dodajemo metodu Run koja će obaviti unos, izračunavanje i ispis
+        
         public static void Run()
         {
             Console.Write("Enter width: ");
@@ -23,7 +23,7 @@ namespace codeCampTutorial
             Console.WriteLine("The area is: " + area);
         }
 
-        // Metoda za računanje površine
+        
         public static int calculateArea(int width, int height)
         {
             int area = (width * height) / 2;
